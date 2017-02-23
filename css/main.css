@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/*font-family: 'Lato', sans-serif;*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+	background-image: url(../images/aidan-meyer-150933.jpg);
+  	margin: 0 auto;
+    margin-top: 5px;
+}
+
+html {
+    height: 100%;
+}
+
+.navbar-default {
+	background-color: #B2CEBF;
+}
+
+.navbar-default .navbar-brand, a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 17px;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				 0px 8px 15px rgba(0,0,0,0.1),
+				 0px 18px 28px rgba(0,0,0,0.1);
+}
+
+#content h1, h3 {
+	color: #B2CEBF;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 120px;	
+	font-style: italic;
+}
+
+hr {
+	width: 40%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+	background-image: url(../images/honeycomb.jpeg);
+	height: auto;
+	width: 100%;
+	padding: 20px;
+    margin-top: 10px;
+}
+
+.contact {
+    display: inline-block;
+    width: 47%;
+}
+
+.contact input {
+	width: 40%;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+}
+
+.social {
+	display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.fa-stack {
+	color: #B2CEBF;
+}
+
+.btn-default {
+	border-radius: 10px;
+    background-color: #B2CEBF;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+

@@ -42,7 +42,7 @@ html {
 }
 
 h1 {
-	font-weight: bold;
+	font-weight: bolder;
 	font-size: 120px;	
 	font-style: italic;
 }
@@ -89,8 +89,8 @@ footer {
 }
 
 .animated {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
